@@ -26,6 +26,13 @@ And also, I want to use TypeScript because of a Test and Type lint, so using wit
 
 ## Install
 
+### Precondition
+
+- [Node.js (more v10.15.x)](https://nodejs.org/en/)
+- [google/clasp](https://github.com/google/clasp)
+  - `npm install @google/clasp -g`
+- Google Account
+
 ### Create API FLASH Website Screenshot API AccessKey
 
 This tool needs to API FLASH Access key because of taking of a Web page screenshot.
@@ -85,22 +92,55 @@ Set your API FLASH TOKEN, Slack API TOKEN, and some variables with Script Proper
 
 ![Img](docs/images/install4.png)
 
-### Any optional sections
+Set variables below. 
+
+```ini
+SLACK_TOKEN="Your Slack TOKEN Required"
+API_FLASH_ACCESS_KEY="Your API FLASH Access Key Required"
+WEB_PAGE_URL="Your Web pages URL, default value is Author's Blog"
+SLACK_TITLE="Slack Message title, default value is Test"
+WEB_PAGE_WIDTH="Screenshot Page Width, default is 1920"
+WEB_PAGE_HEIGHT="Screenshot Page Height, default is 1080"
+WEB_PAGE_CAPTURE_DELAY="This value is delay time between access your page and take a screenshot, default is 10 sec"
+SLACK_CHANNEL="Slack channel which Send a screenshot, default is #general"
+```
+
+### Install dependencies
+
+Use `npm`, install dependencies.
+
+```
+npm install
+```
 
 ## Usage
 
+### Build App
+
+Execute the command below, build script file using with webpack and create script files under `dist` directory.
+
 ```
+npm run build
 ```
 
-Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
+### Push App
 
-### Any optional sections
+Before push app, you need to change GA user setting which enable API.
 
-## API
+[https://script.google.com/home/usersettings](https://script.google.com/home/usersettings)
 
-### Any optional sections
+Push App.
 
-## More optional sections
+```
+clasp login  # only first access
+clasp push
+```
+
+## Demos
+
+Run `main` function , send Slack your web page screenshot.
+
+![Img](docs/images/slack-preview.png)
 
 ## Contributing
 
@@ -110,15 +150,6 @@ PRs accepted.
 
 Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
-### Any optional sections
-
 ## License
 
-[MIT © Richard McRichface.](../LICENSE)
-
-
-## Demos
-
-Run the Script, send Slack.
-
-![Img](docs/images/slack-preview.png)
+[MIT © tubone.](LICENSE)
