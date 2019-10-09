@@ -1,5 +1,5 @@
 export class SendSlackService {
-  static sendImage = (token: string, image: any, title: string, channel: string): void => {
+  static sendImage = (token: string, image: any, title: string, channel: string): boolean => {
     const payload = {
       token: token,
       file: image,
@@ -11,5 +11,6 @@ export class SendSlackService {
 
     // @ts-ignore
     UrlFetchApp.fetch('https://slack.com/api/files.upload', options);
+    return true;
   };
 }
