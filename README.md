@@ -21,7 +21,7 @@ This app is take screenshots of Web pages with GAS(Google Apps Script) and send 
 
 ## Background
 
-I should need to get a screen capture of my website and paste it into Slack channels.
+I should get a screen capture of my website and paste it into Slack channels.
 
 Because I wanted to do it easily, instead of setting up a dedicated server, I make it as FaaS using Google Apps Script (GAS).
 
