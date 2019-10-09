@@ -1,7 +1,7 @@
 {
-  "name": "gas-clasp-starter",
-  "version": "1.2.1",
-  "description": "",
+  "name": "web-screenshot-to-slack-gas",
+  "version": "0.1.0",
+  "description": "WebScreenshot with Google Apps script and API FLASH",
   "main": "index.ts",
   "scripts": {
     "lint": "tslint --fix src/**/*.ts",
@@ -11,19 +11,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howdy39/gas-clasp-starter.git"
+    "url": "git+https://github.com/tubone24/web-screenshot-to-slack-gas.git"
   },
   "keywords": [
+    "API Flash",
+    "screenshot",
+    "Slack",
     "gas",
     "google-apps-script",
     "clasp"
   ],
-  "author": "howdy39",
+  "author": "tubone24",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/howdy39/gas-clasp-starter/issues"
+    "url": "https://github.com/tubone24/web-screenshot-to-slack-gas/issues"
   },
-  "homepage": "https://github.com/howdy39/gas-clasp-starter#readme",
+  "homepage": "https://github.com/tubone24/web-screenshot-to-slack-gas#readme",
   "devDependencies": {
     "@types/google-apps-script": "0.0.59",
     "@types/jest": "24.0.18",
