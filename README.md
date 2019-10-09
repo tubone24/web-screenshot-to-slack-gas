@@ -26,6 +26,26 @@ And also, I want to use TypeScript because of a Test and Type lint, so using wit
 
 ## Install
 
+### Create API FLASH Website Screenshot API AccessKey
+
+This tool needs to API FLASH Access key because of taking of a Web page screenshot.
+
+Visit [https://apiflash.com](https://apiflash.com/) and signup your account.
+
+When create your account, visit [Documentation page](https://apiflash.com/documentation), check your access key, and note this!
+
+![Img](docs/images/install5.png)
+
+### Create Slack API
+
+Visit [https://api.slack.com/apps?new_app=1](https://api.slack.com/apps?new_app=1) and Create New app
+
+![Img](docs/images/install6.png)
+
+![Img](docs/images/install7.png)
+
+![Img](docs/images/install8.png)
+
 ### Create GAS Project
 
 First you create a empty GAS project from Google Drive.
