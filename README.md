@@ -42,9 +42,21 @@ Visit [https://api.slack.com/apps?new_app=1](https://api.slack.com/apps?new_app=
 
 ![Img](docs/images/install6.png)
 
+Next, you add `BOT` features because need to `Bot TOKEN`
+
 ![Img](docs/images/install7.png)
 
+And also, change Basic Information with API, install this app to your workspace.
+
 ![Img](docs/images/install8.png)
+
+Additionally, Change your Slack bot Name.
+
+![Img](docs/images/install10.png)
+
+Finally, you can check your app's BOT users OAuth Access TOKEN, note this!!
+
+![Img](docs/images/install9.png)
 
 ### Create GAS Project
 
