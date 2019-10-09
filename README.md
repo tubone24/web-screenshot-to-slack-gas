@@ -2,6 +2,8 @@
 
 ![Img](docs/images/header.png)
 
+[![license](https://img.shields.io/github/license/tubone24/web-screenshot-to-slack-gas.svg)](LICENSE)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > WebScreenshot with Google Apps script and [API FLASH](https://apiflash.com/)
 
