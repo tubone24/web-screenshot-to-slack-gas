@@ -12,7 +12,7 @@ This app is take screenshots of Web pages with GAS(Google Apps Script) and send 
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-- [API](#api)
+- [Demos](#demos)
 - [Contributing](#contributing)
 - [License](#license)
 
