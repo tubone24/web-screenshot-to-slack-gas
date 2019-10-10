@@ -145,6 +145,14 @@ Run `main` function , send Slack your web page screenshot.
 
 ![Img](docs/images/slack-preview.png)
 
+## Test
+
+If you modify this codes, run unit test with `jest`.
+
+```
+npm test
+```
+
 ## Contributing
 
 See [the contributing file](CONTRIBUTING.md)!
