@@ -155,6 +155,10 @@ If you modify this codes, run unit test with `jest`.
 npm test
 ```
 
+Also, this repo is integrated with GitHub Action.
+
+So, Run CI test, if you write test.
+
 ## Contributing
 
 See [the contributing file](CONTRIBUTING.md)!
