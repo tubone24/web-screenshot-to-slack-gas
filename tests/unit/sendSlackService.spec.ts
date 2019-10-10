@@ -4,7 +4,7 @@ import { SendSlackService } from '../../src/sendSlackService';
 const mockFetch = jest.fn();
 UrlFetchApp.fetch = mockFetch;
 
-describe('sendSlackService', () => {
+describe('sendSlackServiceOK', () => {
   it('sendImage', () => {
     const actual = SendSlackService.sendImage('test-token', 'test-image', 'test-title', '#test');
     const expected_option = {
