@@ -5,6 +5,8 @@
 [![license](https://img.shields.io/github/license/tubone24/web-screenshot-to-slack-gas.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Actions Status](https://github.com/tubone24/web-screenshot-to-slack-gas/workflows/Node%20CI/badge.svg)](https://github.com/tubone24/web-screenshot-to-slack-gas/actions)
+
 
 > WebScreenshot with Google Apps script and [API FLASH](https://apiflash.com/)
 
