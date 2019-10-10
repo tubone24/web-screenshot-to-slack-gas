@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "lint": "tslint --fix src/**/*.ts",
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "npm run lint  && rimraf dist && webpack && cpx src/appsscript.json dist",
     "deploy": "npm run build && clasp push"
   },

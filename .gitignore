@@ -16,3 +16,6 @@ dist/
 
 # envfile
 .env
+
+# coverage
+coverage
