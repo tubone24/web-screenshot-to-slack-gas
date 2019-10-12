@@ -182,7 +182,7 @@ code ~/.clasprc.json
 
 ![Img](docs/images/clasp1.png)
 
-Copy it and paste another window, and replace `"` character to `\n` because of reading to one-line string on bash command.
+Copy it and paste another window, and replace `"` character to `\"` because of reading to one-line string on bash command.
 
 ![Img](docs/images/clasp2.png)
 
