@@ -20,7 +20,7 @@ jobs:
         npm test
     - name: push to GAS
       run: |
-        echo ${{ secrets.CLASPRC_JSON }} > ~/.clasprc.json
+        echo "${{ secrets.CLASPRC_JSON }}" > ~/.clasprc.json
         scripts/deploy_gas.sh
       env:
         CI: true
