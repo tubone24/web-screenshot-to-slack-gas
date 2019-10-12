@@ -159,6 +159,12 @@ Also, this repo is integrated with GitHub Action.
 
 So, Run CI test, if you write test.
 
+### GitHub Action
+
+This repo use GitHub Action, Run tests, Build scripts and push scripts to GAS triggered by push master.
+
+If you want to upload script
+
 ## Contributing
 
 See [the contributing file](CONTRIBUTING.md)!
