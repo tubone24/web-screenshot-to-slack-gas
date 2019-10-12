@@ -18,5 +18,8 @@ jobs:
         npm install
         npm run build
         npm test
+    - name: push to GAS
+      run: |
+        scripts/deploy_gas.sh ${{ secrets.CLASPRC_JSON }}
       env:
         CI: true
