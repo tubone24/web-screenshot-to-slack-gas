@@ -29,6 +29,10 @@ Because I wanted to do it easily, instead of setting up a dedicated server, I ma
 
 And also, I want to use TypeScript because of a Test and Type lint, so using with `clasp` referenced by [howdy39/gas-clasp-starter](https://github.com/howdy39/gas-clasp-starter) 
 
+### Article
+
+[(Japanese)Google Apps Script(GAS)とAPI FLASHとSlackAPIをClaspとJestとGitHub Actionで調理して定期的にWebページのスクリーンショットを撮る](https://qiita.com/tubone/items/2c2702cf69583faa7203)
+
 ## Install
 
 ### Precondition
