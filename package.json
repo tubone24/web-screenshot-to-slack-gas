@@ -42,7 +42,7 @@
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.5.3",
     "webpack": "4.39.3",
-    "webpack-cli": "3.3.8",
+    "webpack-cli": "4.9.0",
     "braces": "2.3.1"
   },
   "jest": {
