@@ -1,0 +1,41 @@
+display_information:
+  name: web-screenshot
+features:
+  bot_user:
+    display_name: webscreenshot
+    always_online: true
+oauth_config:
+  redirect_urls:
+    - FIXME-YOUR-MACROS-URL
+  scopes:
+    bot:
+      - calls:read
+      - calls:write
+      - channels:read
+      - chat:write
+      - commands
+      - dnd:read
+      - files:read
+      - groups:read
+      - im:history
+      - im:read
+      - im:write
+      - incoming-webhook
+      - mpim:history
+      - mpim:read
+      - mpim:write
+      - pins:write
+      - reactions:read
+      - reactions:write
+      - remote_files:read
+      - remote_files:share
+      - remote_files:write
+      - team:read
+      - users:read
+      - users:read.email
+      - users:write
+      - files:write
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
